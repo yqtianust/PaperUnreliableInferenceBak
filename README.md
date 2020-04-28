@@ -1,6 +1,6 @@
 # Experiment Data of Paper: Identifying Unreliable Inferences in DNN-Based Image Classification
 
-This page hosts the data of FSE20 Paper 104:  **Identifying Unreliable Inferences in DNN-Based Image Classification**
+This page hosts the data of Paper:  **Identifying Unreliable Inferences in DNN-Based Image Classification**
 
 **Please note the file is in csv (comma-separated values) format, although the file extension is .txt.** 
 
