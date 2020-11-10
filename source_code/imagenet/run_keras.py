@@ -4,10 +4,11 @@ Provides code for keras pretrained models evaluation
 
 from __future__ import absolute_import
 
-# from evaldnn.metrics.accuracy import Accuracy
+from evaldnn.metrics.accuracy import Accuracy
 from evaldnn.models.keras import KerasModel
 from evaldnn.utils.keras import *
-from all_probs_logger import all_probs_logger
+from .all_probs_logger import all_probs_logger
+
 
 def eval():
     """Evaluate accuracy, neuron coverage and robustness of all pretrained
