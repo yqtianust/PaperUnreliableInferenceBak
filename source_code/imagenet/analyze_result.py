@@ -134,7 +134,7 @@ def analyze():
         'acc_num': np.sum(ground_truth_acc)
         })
 
-        np.savez(os.path.join("./all_probs_analyze_distribution", "colors_{}.npz".format(model_name)), acc=ground_truth_acc,
+        np.savez(os.path.join("./all_probs_analyze_distribution", "{}.npz".format(model_name)), acc=ground_truth_acc,
                  violate_obj=np.logical_and(result_obj, ground_truth_acc),
                  violate_bg=np.logical_and(result_bg, ground_truth_acc),
                  violate_both=np.logical_and(common, ground_truth_acc))
